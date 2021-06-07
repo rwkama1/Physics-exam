@@ -1,0 +1,16 @@
+{
+  "name": "physics-exam",
+  "version": "1.0.1",
+  "description": "A group of N students take a Physics exam.",
+  "scripts": {
+    "start": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rwkama1/Physics-exam"
+  },
+ 
+  "keywords": ["js","javascript","calculation","grade","group","student","calculate","backend"],
+  "author": "Carlos Rodriguez <rwkamandriw@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,43 @@
+class Group
+{
+    constructor(parraystudent)
+    {
+        this.arraystudent=parraystudent;
+    }
+    calculate_grades=()=>
+    {
+        let a,b,c,d;
+        a=0;
+        b=0;
+        c=0;
+        d=0;
+       this.arraystudent.map(
+           s=>{
+            if(s.grade<50)
+            {
+                a=a+1;
+            }
+            else
+            {
+                if(s.grade<70)
+                {
+                    b=b+1;
+                }
+                else
+                {
+                    if(s.grade<80)
+                    {
+                        c=c+1;
+                    }
+                    else
+                    {
+                        d=d+1;
+                    }
+                }
+            }
+           }
+       )
+       return {a,b,c,d}
+    }
+}
+module.exports={Group}
